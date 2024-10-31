@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+Body{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 20vw 30vw 30vw 30vw 30vw 30vw;
+}
+
+
+nav{
+    position: sticky;
+    top:0;
+    grid-row: 1/span 1;
+    background-color: rgb(247, 240, 231);
+    display:flex;
+    justify-content: flex-end;
+    height: 2.8vw;
+    font-size: 1.5vw;
+    align-items: center; 
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 2vw;
+}
+.inicio img{
+    position: absolute;
+    width: 100vw;
+    height: 40vw;
+    z-index: -1;
+}
+.inicio{
+    grid-row: 2/span 1;
+    height: 40vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 0vw;
+}
+.cuadro1 {
+    background-color: rgb(247, 240, 231);
+    display: flex;
+    width: 40vw;
+    height: 10vw;
+    flex-direction:column ;
+    text-align: center;
+    padding-top: 1.2vw;
+}
+.cuadro1 h1{
+    font-size: 1.8vw;
+}
+.contenedor{
+
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2vw;
+}
+.vCasa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-right: 2vw;
+    width: 10vw;
+    height: 2vw;    
+}
+.cCasa{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 13vw;
+    height: 2vw;
+    color:white    
+}
+.quienesSomos{
+    background-color: rgb(49, 48, 48);
+    border: 2px solid black;
+    grid-row: 3/ span 1;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.textDer{
+    padding: 1.5vw;
+    height: 30vw;
+    width: 20vw;
+    
+    text-align: center;
+    font-size: 1.1vw;
+    line-height:1.4;
+    padding-top: 7vw;
+    margin-right: 2vw;
+}
+
+.imgSomos img{
+    width:28vw;
+    height: 28vw;
+}
+.anuncios{
+    grid-row: 4/ span 1;
+    text-align: center;
+    background-color: rgb(247, 240, 231);
+    padding-top: 2vw;
+    height: 60vw;
+    font-size:1.7vw;
+}
+.anuncios h1{
+    font-size: 2.3vw;
+}
+.anunciosCont{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding-top: 10vw;
+}
+.anunciosCont img{
+    width: 20vw;
+    height: 15vw;
+}
+.anunciosCont div{
+    padding-top:2vw;
+}
+.nuevoVenta{
+    padding-top: 1vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+.nuevoAlquiler{
+    margin-top:5vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+.nuevoEnVenta{
+    padding-top: 1vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+
+
+.ventas{
+    grid-row: 4/ span 1;
+    text-align: center;
+    background-color: rgb(247, 240, 231);
+    padding-top: 2vw;
+    height: 60vw;
+    font-size:1.7vw;
+}
+.ventas h1{
+    font-size: 2.3vw;
+}
+.ventasCont{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding-top: 10vw;
+}
+.ventasCont img{
+    width: 20vw;
+    height: 15vw;
+}
+.ventasCont div{
+    padding-top:2vw;
+}
+.NUEVA{
+    padding-top: 1vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+.RENOVADO1{
+    margin-top:5vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+.RENOVADO2{
+    padding-top: 1vw;
+    border-top:2px solid black;
+    width:20vw;
+    margin-right:2vw;
+}
+.clientes{
+    grid-row: 4/ span 1;
+    background-color: rgb(247, 240, 231);
+    padding-top: 2vw;
+    height: 60vw;
+    font-size:1.7vw;
+}
+.titulo{
+    font-size: 1.7vw;
+    padding-left: 9.8vw;
+}
+.clientesCont{
+    display:flex;
+    justify-content: center;
+    padding-top: 10vw;
+}
+
+.clientesCont div{
+    padding-top:2vw;
+}
+.primera{
+    padding-top: 1vw;
+    width:25vw;
+    margin-right:2vw;
+}
+.segunda{
+    width:25vw;
+    margin-right:2vw;
+}
+.tercera{
+    padding-top: 1vw;
+    width:25vw;
+    margin-right:2vw;
+}
+.linea{
+    border-top:2px solid;
+    width: 5vw;
+}
+
+.contato ul li{
+    list-style-type: none;
+}
+.contacto{
+    background-color: rgb(49, 48, 48);
+    color:white;
+    text-align: center;
+}
+
+.vCasa1{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    border:2px solid white;
+    color:white;
+    position:relative;
+    margin-left: 38vw;
+    top:1vw
+
+     
+}
+.cCasa1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;    
+    width: 10vw;
+    height: 2vw;  
+    color:black;
+    margin-left: 50vw;
+    position:relative;
+    bottom: 1vw;
+   
+}
+.video video{
+    height: 30vw;
+    margin:0 auto;
+}
